@@ -81,7 +81,7 @@ hr { border-top: 4px solid #CCC; }
 
 .tm-section { padding: 50px 70px 50px 0; }
 
-#gallery,
+#Technology,
 #about,
 #contact {
 	padding-bottom: 150px;
@@ -229,8 +229,8 @@ hr { border-top: 4px solid #CCC; }
 	color: #068ccf;
 }
 
-/* Gallery section */
-.tm-gallery {
+/* Technology section */
+.tm-Technology {
 	position: relative;
 	margin: 0 -10px;
 	list-style: none;
@@ -238,7 +238,7 @@ hr { border-top: 4px solid #CCC; }
 	overflow: hidden;
 }
 
-.tm-gallery-links {
+.tm-Technology-links {
 	padding-left: 0;
     display: flex;
 	flex-wrap: wrap;
@@ -246,19 +246,19 @@ hr { border-top: 4px solid #CCC; }
 	margin-bottom: 0;
 }
 
-.tm-gallery-links li {
+.tm-Technology-links li {
 	list-style: none;
 	margin-bottom: 30px;
 	margin-right: 55px;
 }
 
-.tm-gallery-link {
+.tm-Technology-link {
 	padding: 15px;
 	color: #006699;	
 }
 
-.tm-gallery-link.active { color: #666666; }
-.tm-gallery-link-icon { width: 25px; }
+.tm-Technology-link.active { color: #666666; }
+.tm-Technology-link-icon { width: 25px; }
 
 .tm-paging {
 	margin-top: 35px;
@@ -302,7 +302,7 @@ a.tm-paging-link:hover {
 	.tm-paging-link { margin-right: 5px; }
 }
 
-.tm-gallery figure {
+.tm-Technology figure {
 	position: relative;
 	z-index: 50;
 	float: left;
@@ -317,7 +317,7 @@ a.tm-paging-link:hover {
 	cursor: pointer;
 }
 
-.tm-gallery figure img {
+.tm-Technology figure img {
 	position: relative;
 	display: block;
 	min-height: 100%;
@@ -325,7 +325,7 @@ a.tm-paging-link:hover {
 	opacity: 0.8;
 }
 
-.tm-gallery figure figcaption {
+.tm-Technology figure figcaption {
 	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
@@ -334,13 +334,13 @@ a.tm-paging-link:hover {
 	backface-visibility: hidden;
 }
 
-.tm-gallery figure figcaption::before,
-.tm-gallery figure figcaption::after {
+.tm-Technology figure figcaption::before,
+.tm-Technology figure figcaption::after {
 	pointer-events: none;
 }
 
-.tm-gallery figure figcaption,
-.tm-gallery figure figcaption > a {
+.tm-Technology figure figcaption,
+.tm-Technology figure figcaption > a {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -350,7 +350,7 @@ a.tm-paging-link:hover {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.tm-gallery figure figcaption > a {
+.tm-Technology figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
@@ -358,19 +358,19 @@ a.tm-paging-link:hover {
 	opacity: 0;
 }
 
-.tm-gallery figure h2 {
+.tm-Technology figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
 
-.tm-gallery figure h2 span { font-weight: 800; }
+.tm-Technology figure h2 span { font-weight: 800; }
 
-.tm-gallery figure h2,
-.tm-gallery figure p {
+.tm-Technology figure h2,
+.tm-Technology figure p {
 	margin: 0;
 }
 
-.tm-gallery figure p {
+.tm-Technology figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }

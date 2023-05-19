@@ -28,9 +28,9 @@ $(document).ready(function () {
         $(".tm-sidebar").removeClass("show");
     });
 
-    /*************** Gallery ******************/
+    /*************** Technology ******************/
     
-    var itemSelector = ".tm-gallery-item"; 
+    var itemSelector = ".tm-Technology-item"; 
     var responsiveIsotope = [ [480, 4], [720, 6], [1920, 9] ];
     var itemsPerPageDefault = 12;
     var itemsPerPage = defineItemsPerPage();
@@ -40,7 +40,7 @@ $(document).ready(function () {
     var filterValue = "";
     var pageAttribute = 'data-page';
     var pagerClass = 'tm-paging';    
-    var $container = $('.tm-gallery').isotope({ 
+    var $container = $('.tm-Technology').isotope({ 
         itemSelector: itemSelector
     });
 
@@ -150,12 +150,12 @@ $(document).ready(function () {
     setPagination();
     goToPage(1);
 
-    $('.tm-gallery-link').click(function(e) {        
+    $('.tm-Technology-link').click(function(e) {        
         var filter = $(this).data('filter');        
         currentFilter = filter;
         setPagination();
         goToPage(1);
-        $('.tm-gallery-link').removeClass('active');
+        $('.tm-Technology-link').removeClass('active');
         $(e.target).addClass('active');
     })
 
@@ -169,10 +169,10 @@ $(document).ready(function () {
 
     /****************** Magnific Popup ******************/
 
-    $('.tm-gallery').magnificPopup({
+    $('.tm-Technology').magnificPopup({
         delegate: 'a',
         type: 'image',
-        gallery: {
+        Technology: {
             enabled: true
         }
       });
