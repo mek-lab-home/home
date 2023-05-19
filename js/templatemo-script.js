@@ -192,7 +192,7 @@ $(document).ready(function () {
         }
     });
 
-    /************** "About" Carousel *****************/
+    /************** "Product" Carousel *****************/
 
     $('.tm-carousel').slick({
         dots: true,
