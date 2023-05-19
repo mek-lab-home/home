@@ -82,7 +82,7 @@ hr { border-top: 4px solid #CCC; }
 .tm-section { padding: 50px 70px 50px 0; }
 
 #Technology,
-#about,
+#About,
 #contact {
 	padding-bottom: 150px;
 }
@@ -447,27 +447,27 @@ figure.effect-honey:hover ul li a {
 
 /* About */
 
-.tm-row-about {
+.tm-row-About {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.tm-col-about-l { width: calc(100% - 500px); }
+.tm-col-About-l { width: calc(100% - 500px); }
 
-.tm-col-about-r {
+.tm-col-About-r {
 	width: 400px;
 	margin-right: 0;
 	margin-left: auto;
 }
 
 @media (max-width: 1660px) {
-	.tm-col-about { width: 50%; }
-	.tm-col-about-l { padding-right: 30px; }
+	.tm-col-About { width: 50%; }
+	.tm-col-About-l { padding-right: 30px; }
 }
 
 @media (max-width: 1200px) {
-	.tm-col-about { width: 100%; }
-	.tm-col-about-l { padding-right: 0; }
+	.tm-col-About { width: 100%; }
+	.tm-col-About-l { padding-right: 0; }
 }
 
 .tm-social {
@@ -588,8 +588,8 @@ figure.effect-honey:hover ul li a {
 	opacity: 0;
 }
 
-.tm-about-title { font-size: 24px; }
-.tm-about-subtitle { font-size: 20px; }
+.tm-About-title { font-size: 24px; }
+.tm-About-subtitle { font-size: 20px; }
 
 /* Contact */
 
