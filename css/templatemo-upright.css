@@ -603,17 +603,22 @@ select:not([multiple]) {
 
 .mapouter{
     position:relative;
-    height:360px;
+    height:430px;
     width:100%;
 }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:360px;
-    width:100%;
+    height:430px;
+    width:50%;
 }
-
+.gmap_canvas iframe {
+    transform: scale(0.5); /* 50% 축소 */
+    transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
+    width: 200%; /* 확대된 화면을 채우도록 조정 */
+    height: 200%;
+}
 .tm-Contact-links {
 	padding-left: 0;
 	margin: 0;
