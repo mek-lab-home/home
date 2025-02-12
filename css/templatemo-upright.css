@@ -277,7 +277,7 @@ a.tm-paging-link:hover {
     color: white;
 }
 
-@media (max-width: 1972px) { .tm-paging { max-width: 870px; } }
+@media (max-width: 19720px) { .tm-paging { max-width: 870px; } }
 
 .tm-Technology figure {
 	position: relative;
@@ -449,6 +449,25 @@ figure.effect-honey:hover ul li a {
 	margin-left: auto;
 }
 
+.mapouter{
+    position:relative;
+    height:430px;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none;
+    height:130px;
+    width:50%;
+}
+.gmap_canvas iframe {
+    transform: scale(0.5); /* 50% 축소 */
+    transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
+    width: 200%; /* 확대된 화면을 채우도록 조정 */
+    height: 200%;
+}
+
 @media (max-width: 1660px) {
 	.tm-col-Home-Pic { width: 100%; }
 	.tm-col-Product { width: 50%; }
@@ -601,24 +620,6 @@ select:not([multiple]) {
     color: #666;
 }
 
-.mapouter{
-    position:relative;
-    height:430px;
-    width:100%;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:130px;
-    width:50%;
-}
-.gmap_canvas iframe {
-    transform: scale(0.5); /* 50% 축소 */
-    transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
-    width: 200%; /* 확대된 화면을 채우도록 조정 */
-    height: 200%;
-}
 .tm-Contact-links {
 	padding-left: 0;
 	margin: 0;
@@ -645,7 +646,7 @@ select:not([multiple]) {
 
 .tm-copyright { padding: 50px 70px 20px 0; }
 
-@media (max-width: 16000px) {
+@media (max-width: 1600px) {
 	.tm-col-Home-l { 
 		width: calc(100% - 250px); }
 
@@ -760,7 +761,7 @@ select:not([multiple]) {
 
 	.gmap_canvas {
 		overflow:hidden;
-		background:none!important;
+		background:none;
 		height:130px;
 		width:50%;
 	}
