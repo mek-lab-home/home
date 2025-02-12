@@ -610,7 +610,7 @@ select:not([multiple]) {
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:430px;
+    height:130px;
     width:50%;
 }
 .gmap_canvas iframe {
@@ -758,8 +758,18 @@ select:not([multiple]) {
 @media (max-width: 898px) { 
 	.tm-paging { max-width: 290px; } 
 
-	
-
+	.gmap_canvas {
+		overflow:hidden;
+		background:none!important;
+		height:130px;
+		width:50%;
+	}
+	.gmap_canvas iframe {
+		transform: scale(0.5); /* 50% 축소 */
+		transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
+		width: 200%; /* 확대된 화면을 채우도록 조정 */
+		height: 200%;
+	}
 
 }
 
@@ -777,18 +787,6 @@ select:not([multiple]) {
 		position: static;
 		height: 0px;
 		width: 100%; 		
-	}
-	.gmap_canvas {
-		overflow:hidden;
-		background:none!important;
-		height:430px;
-		width:50%;
-	}
-	.gmap_canvas iframe {
-		transform: scale(0.5); /* 50% 축소 */
-		transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
-		width: 200%; /* 확대된 화면을 채우도록 조정 */
-		height: 200%;
 	}
 }
 
