@@ -98,6 +98,16 @@ hr { border-top: 4px solid #CCC; }
     top: 0;
 }
 
+.tm-parallax figcaption {
+    position: absolute;  
+	top: 10%; 
+	left: 0%;   
+    background: rgba(0, 0, 0, 0.5);	
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+	margin: 10px;
+}
 /* Hide scrollbar */
 .tm-sidebar {
 	overflow-y: scroll;
@@ -333,16 +343,6 @@ a.tm-paging-link:hover {
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
-}
-
-.tm-parallax figcaption {
-    position: absolute;  
-	top: 10%;    
-    background: rgba(0, 0, 0, 0.5);	
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-	margin: 10px;
 }
 
 figure.effect-honey h4 {
@@ -625,7 +625,7 @@ select:not([multiple]) {
     overflow:hidden;
     background:none;
     height:430px;
-    width:50%;
+    width:100%;
 }
 .gmap_canvas iframe {
     transform: scale(0.5); /* 50% 축소 */
@@ -673,6 +673,21 @@ select:not([multiple]) {
 		width: 380px;     
 		left: -480px; 
 	} 
+
+	.tm-parallax figcaption {
+		position: absolute;  
+		top: 10%; 
+		left: 3%;   
+		background: rgba(0, 0, 0, 0.5);	
+		color: white;
+		padding: 10px 15px;
+		border-radius: 5px;
+		margin: 10px;
+	}
+
+	.col-xl-6 {
+		min-width: 340px; /* 최소 너비 설정 */
+	}
 }
 
 @media (max-width: 1400px) {
@@ -686,6 +701,16 @@ select:not([multiple]) {
 		left: -350px;
 	}
 	
+	.tm-parallax figcaption {
+		position: absolute;  
+		top: 10%; 
+		left: 0%;   
+		background: rgba(0, 0, 0, 0.5);	
+		color: white;
+		padding: 10px 15px;
+		border-radius: 5px;
+		margin: 10px;
+	}
 }
 @media (max-width: 1258px) { 
 	.tm-paging { max-width: 290px; } 
@@ -694,7 +719,17 @@ select:not([multiple]) {
 		width: 280px;     
 		left: -320px; 
 	}
-
+	
+	.tm-parallax figcaption {
+		position: absolute;  
+		top: 10%; 
+		left: 0%;   
+		background: rgba(0, 0, 0, 0.5);	
+		color: white;
+		padding: 10px 15px;
+		border-radius: 5px;
+		margin: 10px;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -754,6 +789,16 @@ select:not([multiple]) {
     	left: -275px;	
 		top: 0;	
 	}
+	.tm-parallax figcaption {
+		position: absolute;  
+		top: 10%; 
+		left: 0%;   
+		background: rgba(0, 0, 0, 0.5);	
+		color: white;
+		padding: 10px 10px;
+		border-radius: 5px;
+		margin: 10px;
+	}
 
 	.tm-section-wrap {
 		width: calc(100% - 280px);
@@ -792,6 +837,9 @@ select:not([multiple]) {
 		width: 100%; 		
 	}
 	
+	.tm-parallax figcaption {
+		display: none;
+	}
 }
 
 @media (max-width: 618px) {
