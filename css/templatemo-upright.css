@@ -630,8 +630,8 @@ select:not([multiple]) {
 .gmap_canvas iframe {
     transform: scale(0.5); /* 50% 축소 */
     transform-origin: 0 0; /* 왼쪽 상단 기준으로 축소 */
-    width: 50%; /* 확대된 화면을 채우도록 조정 */
-    height: 50%;
+    width: 200%; /* 확대된 화면을 채우도록 조정 */
+    height: 200%;
 }
 .tm-Contact-links {
 	padding-left: 0;
